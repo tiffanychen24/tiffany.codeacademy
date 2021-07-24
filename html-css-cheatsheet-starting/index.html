@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Cheatsheet: CSS Selectors, Combinations and Specifity</h1>
+        <link href='styles.css' rel='stylesheet'>
+    </head>
+    <section>
+        <p class='title'>Basic Selectors</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Syntax</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class= 'code'>* {style properties}</td>
+                    <td class='link'><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors' target="_blank">Unviversal</td>
+                    <td>
+                        <p>Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces.</p>
+                        <p>Example: <span class= 'code'>*</span> will match all the elements of the document.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='code'>elementname{ }</td>
+                    <td class='link'><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors' target="_blank">Type</td>
+                    <td>
+                        <p>Selects all elements that have the given node name.</p>
+                        <p>Example: input will match any &lt;input&gt; element.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='code'>.classname{ }</td>
+                    <td class='link'><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors' target="_blank">Class</td>
+                    <td>
+                        <p>Selects all elements that have the given class attribute.</p>
+                        <p>Example: .index will match any element that has a class of "index".</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='code'>#idname{ }</td>
+                    <td class='link'><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors' target="_blank">ID</td>
+                    <td>
+                        <p>Selects an element based on the value of its id attribute. There should be only one element with a given ID in a document.</p>
+                        <p>Example: #toc will match the element that has the ID "toc".</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='code'>[attr]</td>
+                    <td class='link'><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors' target="_blank">attribute</td>
+                    <td>
+                        <p>Represents elements with an attribute name of attr.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='code'>[attr=value]</td>
+                    <td></td>
+                    <td>
+                        <p>Represents elements with an attribute name of attr whose value is exactly value.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='code'>[attr~=value]</td>
+                    <td></td>
+                    <td>
+                        <p>Represents elements with an attribute name of attr whose value is a whitespace-separated list of words, one of which is exactly value.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='code'>[attr|=value]</td>
+                    <td></td>
+                    <td>
+                        <p>Represents elements with an attribute name of attr whose value can be exactly value or can begin with value immediately followed by a hyphen, - (U+002D). It is often used for language subcode matches.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='code'>[attr^=value]</td>
+                    <td></td>
+                    <td>
+                        <p>Represents elements with an attribute name of attr whose value is prefixed (preceded) by value.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='code'>[attr$=value]</td>
+                    <td></td>
+                    <td>
+                        <p>Represents elements with an attribute name of attr whose value is suffixed (followed) by value</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='code'>[attr*=value]</td>
+                    <td></td>
+                    <td>
+                        <p>Represents elements with an attribute name of attr whose value contains at least one occurrence of value within the string.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <p class='title'>Grouping Selectors</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Syntax</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <p class='title'>Combinators</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Syntax</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <p class='title'>Psuedo</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Syntax</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+
+
+
+
+
+</html>

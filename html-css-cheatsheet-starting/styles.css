@@ -1,0 +1,45 @@
+.title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: left;
+    }  
+
+table, th, td{
+    border: 1px solid black;
+}
+
+table {
+    table-layout: fixed;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 50px;
+    }
+
+thead{
+    color:darkslateblue;
+    font-size: 18pt;
+}
+thead th:nth-child(1) {
+  width: 15%;
+}
+
+thead th:nth-child(2) {
+  width: 15%;
+}
+
+thead th:nth-child(3) {
+  width: 40%;
+}
+
+th, td {
+    padding: 20px;
+}
+
+
+.code {
+    letter-spacing: 1px;
+    font-family: monospace;
+}
