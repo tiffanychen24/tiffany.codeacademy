@@ -1,0 +1,140 @@
+
+h1{
+    text-align: center;
+    font-family: 'Prata', serif;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 38px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.colors{
+    text-align: center;
+}
+
+.values{
+    font-size: 30px;
+    border-radius: 10px;
+    width: 380px;
+    height: 200px;
+    margin: 30px;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.values.lilac{
+    background-color: #DBC1E1;
+    color: #181E34;
+}
+.values.denim{
+    background-color: #181E34;
+    color: white;
+}
+
+.values.lemonade{
+    background-color: #F9DCE1;
+    color: #181E34;
+
+}
+
+.values.lavender{
+    background-color: #EBDDEE;
+    color: #181E34;
+}
+
+.values.lilac:hover,.values.lemonade:hover,.values.denim:hover,.values.lavender:hover{
+    background-size: cover;
+    color: transparent;
+    object-fit: cover;
+}
+.values.lilac:hover{
+    background-image: url(./pictures/light\ lilac.png);
+}
+
+.values.denim:hover{
+    background-image:url(./pictures/dark\ denim.png);
+}
+
+.values.lemonade:hover{
+    background-image:url(./pictures/pink\ lemonade.png);
+}
+
+.values.lavender:hover{
+    background-image: url(./pictures/bright\ lavender.png);
+}
+
+.fonts{
+    background-color:#DBC1E1;
+    color: #181E34;
+    width: 840px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    border: 3px solid #181E34;
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+    padding: 0 20px;
+}
+
+
+ul{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+ul li{
+    font-size: 30px;
+    list-style: none;
+    display: inline-flex;
+    width: 280px; 
+    height: 50px;
+}
+
+
+li:nth-of-type(1){
+    font-weight: 100;
+
+}
+li:nth-of-type(2){
+    font-style:italic;
+    font-weight: 100;
+}
+li:nth-of-type(3){
+    font-weight: 300;
+}
+li:nth-of-type(4){
+    font-weight: 300;
+    font-style: italic;
+}
+li:nth-of-type(6){
+    font-style: italic;
+}
+li:nth-of-type(7){
+    font-weight: 700;
+    font-style: bold;
+}
+li:nth-of-type(8){
+    font-weight: bold;
+    font-style: italic;
+}
+li:nth-of-type(9){
+    font-weight: 900;
+    font-style: italic;
+}
+li:nth-of-type(10){
+    font-weight: 900;
+    font-style: italic;
+}
