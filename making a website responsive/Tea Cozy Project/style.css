@@ -1,0 +1,126 @@
+*{
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+  }
+  .page-heading{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo{
+    height: 50px;
+  }
+  
+  .logo img{
+    max-height: 100%;
+    width: auto;
+    display: block;
+    margin-left: 10px;
+  }
+  
+  .breadcrumb{
+    display: inline-flex;
+    font-size: 22px;
+  }
+  .breadcrumb ul{
+    list-style: none;
+    display: inline-flex;
+    text-decoration: underline;
+  }
+  
+  .breadcrumb ul li{
+    padding: 0 10px;
+  }
+  
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .mission{
+    width: 1200px;
+    height: 700px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+  
+  .description{
+    width: 100%;
+  }
+  
+  .Featured-Tea{
+    width: 1000px;
+  }
+  
+  .list{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .list img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .location{
+    width: 1200px;
+    height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .location h2{
+    background-color: transparent;
+  }
+  
+  .boxes{
+    width: 980px;
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: transparent;
+  }
+  
+  .Downtown, .East-Bayside, .Oakdale{
+    width: 250px;
+    height: auto;
+    opacity: 1;
+  }
+  
+  .location p{
+    padding: 15px;
+  }
+  
+  .contact{
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  footer h5{
+    text-align: left;
+    margin-left: 20px;
+  }
+  
