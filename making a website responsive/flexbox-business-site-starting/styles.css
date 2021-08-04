@@ -1,0 +1,99 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "banner banner"
+    "mission mission "
+    "committee committee "
+    "sponsor sponsor "
+    "links links ";
+    justify-content: center;
+    justify-items: center;
+}
+
+.banner{
+    grid-area: banner;
+    width: 800px;
+    height: 400px;
+    background-image: url(./pictures/BAME\ Final\ Logo\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-self: center;
+    color: transparent;
+}
+
+.mission{
+    grid-area: mission;
+    align-self: center;
+    padding: 20px 150px;
+}
+
+.committee-members div{
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+.committee-members{
+    grid-area: committee;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid #E9DB9C;
+    padding: 20px;
+    margin: 50px;
+    border-radius:3em;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+figure img{
+    width: 130px; 
+    height: 130px;
+    border-radius: 5px;
+}
+
+figure figcaption{
+    font-size: 10px;
+}
+
+.executive, .funding, .marketing, .finance, .consulting, .law{
+    display: inline-flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+}
+
+
+.sponsors{
+    grid-area: sponsor;
+    margin: 50px;
+}
+
+.sponsors h2{
+    padding-left: 25px;
+}
+
+.sponsors img{
+    width: 20%;
+    height: auto;
+    padding: 20px;
+}
+
+
+/* Links */
+.links{
+    grid-area: links;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+}
+i.fas, i.fab {
+    color: black;
+    font-size: 3em;
+    padding: 20px;
+  }
